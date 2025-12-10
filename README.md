@@ -1,5 +1,5 @@
 # CRT-FINDER
-![My Image](picture.png/images)
+![My Image](images/picture.png)
 
 a tool for auto finding extra subdomain from crt
 and here is the ultimate recon method
@@ -19,4 +19,3 @@ cat allsub.txt | httpx-toolkit -l allsub.txt -ports 443,80,8080,8000,8888 -threa
 
 6) dirsearch
 python dirsearch.py -l /home/nicky/Desktop/crypto/alive_subdomains.txt -x 500,502,429,404,400 -R 5 --random-agent -t 100 -F -o /home/nicky/Desktop/crypto/directory.txt
-
